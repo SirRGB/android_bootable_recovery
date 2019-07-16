@@ -357,6 +357,8 @@
 
 		<page name="flash_confirm">
 			<template name="page"/>
+			
+
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -464,6 +466,11 @@
 
 		<page name="flash_zip">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -641,6 +648,11 @@
 
 		<page name="flashimage_confirm">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -836,6 +848,11 @@
 
 		<page name="action_page">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -883,6 +900,11 @@
 
 		<page name="singleaction_page">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -1202,6 +1224,11 @@
 
 		<page name="formatdata">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -1906,6 +1933,11 @@
 
 		<page name="backupname2">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2022,6 +2054,11 @@
 
 		<page name="backupencryption">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2130,6 +2167,11 @@
 
 		<page name="backupencryption2">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2250,6 +2292,11 @@
 
 		<page name="backup_run">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2396,6 +2443,11 @@
 
 		<page name="restore_decrypt">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2604,6 +2656,11 @@
 
 		<page name="renamebackup">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -2677,6 +2734,11 @@
 
 		<page name="restore_run">
 			<template name="page"/>
+			
+			<image>
+				<image resource="no_nav_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -4152,11 +4214,11 @@
 		</page>
 
 		<page name="lock">
-			<background color="%semi_transparent%"/>
+			<background color="%unlock%"/>
 
 			<image>
-				<image resource="unlock_icon"/>
-				<placement x="%center_x%" y="%row10_y%" placement="4"/>
+				<image resource="unlock_bg"/>
+				<placement x="0" y="0"/>
 			</image>
 
 			<slider>
@@ -4167,6 +4229,11 @@
 			<action>
 				<touch key="power"/>
 				<action function="togglebacklight"/>
+			</action>
+			
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
 			</action>
 		</page>
 
@@ -4426,6 +4493,11 @@
 
 		<page name="filemanagerrenamefile">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -4481,6 +4553,11 @@
 
 		<page name="filemanagerrenamefolder">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -4536,6 +4613,11 @@
 
 		<page name="filemanagerchmod">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
@@ -4695,6 +4777,11 @@
 
 		<page name="decrypt">
 			<template name="page"/>
+			
+			<image>
+				<image resource="kb_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<action>
 				<condition var1="tw_crypto_pwtype" var2="2"/>
@@ -4984,10 +5071,15 @@
 		<page name="terminalcommand">
 			<template name="page"/>
 
-			<fill color="%background_color%">
+            <fill color="%background_color%">
 				<placement x="0" y="%row2_header_y%" w="%screen_width%" h="%slideout_bg_height%"/>
 			</fill>
-
+			
+			<image>
+				<image resource="term_bg"/>
+				<placement x="0" y="0"/>
+			</image>
+			
 			<terminal>
 				<condition var1="tw_hide_kb" var2="0"/>
 				<placement x="0" y="%row3_header_y%" w="%screen_width%" h="%console_terminal_height%"/>
@@ -5245,10 +5337,11 @@
 			<fill color="%semi_transparent%">
 				<placement x="0" y="0" w="%screen_width%" h="%screen_height%"/>
 			</fill>
-
-			<fill color="%background_color%">
-				<placement x="%indent%" y="row5_y" w="%content_width%" h="%dialog_height%"/>
-			</fill>
+			
+			<image>
+				<image resource="select_storage_bg"/>
+				<placement x="0" y="0"/>
+			</image>
 
 			<partitionlist style="partitionlist_storage">
 				<text>{@sel_storage_list=Select Storage}</text>
